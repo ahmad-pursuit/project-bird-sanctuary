@@ -1,0 +1,17 @@
+/* body {
+    display: grid;
+} */
+
+/* .card {
+    display:grid;
+    margin:auto;
+} */
+
+.bird-image{
+    height: 150px;
+    width: 200px;
+}
+
+.adopt{
+    display: grid;
+}
