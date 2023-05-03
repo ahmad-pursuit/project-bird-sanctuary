@@ -1,8 +1,6 @@
 export default function Checkout({ clearCart }) {
 
     const checkSubmit = () => {
-        //e.preventDefault();
-        clearCart();
         alert("You have adopted birds. Thank you!");
     };
 

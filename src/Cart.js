@@ -6,14 +6,14 @@ export default function Cart({ cart, totalPrice, removeBird }) {
     if (totalPrice >= 100) {
         bonus.push(bonusItems[0]);
     }
-    if (totalPrice >= 300 && totalPrice <= 500) {
-        bonus.push(bonusItems[1], bonusItems[0]);
+    if (totalPrice >= 300) {
+        bonus.push(bonusItems[1])
     }
-    if (totalPrice >= 500 && totalPrice <= 1000) {
-        bonus.push(bonusItems[0], bonusItems[1], bonusItems[2]);
+    if (totalPrice >= 500) {
+        bonus.push(bonusItems[2]);
     }
     if (totalPrice >= 1000) {
-        bonus.push(bonusItems[3], bonusItems[2], bonusItems[1], bonusItems[0]);
+        bonus.push(bonusItems[3])
     }
 
 
